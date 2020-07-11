@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `My Blog`,
-    description: `Meu blog onde vai ter tudo relacionado a arte`,
+    position: `Programador front-end, empreendedor e artista`,
+    description: ` Programador junior na empresa Beneb App, apaixonado por
+    empreendimento e investimento, CEO da MRLmalharia, fundador da
+    desencoder e nas horas vagas sou design, tento as vezes fazer
+    desenhos a lápis e digital.`,
     author: `@leopsousaa`,
   },
   plugins: [
