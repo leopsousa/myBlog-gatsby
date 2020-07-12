@@ -11,7 +11,7 @@ export const ProfileLink = styled(Link)`
   color: #8899a6;
   text-decoration: none;
   transition: color 0.5s;
-
+  padding-bottom: 2rem;
   &:hover {
     color: #1fa1f2;
   }
