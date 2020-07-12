@@ -16,7 +16,6 @@ const Profile = () => {
         siteMetadata {
           author
           description
-          title
           position
         }
       }
