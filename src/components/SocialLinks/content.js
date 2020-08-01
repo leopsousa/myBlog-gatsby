@@ -1,25 +1,23 @@
-const handle = "@leopsousaa"
-
 const links = [
   {
     label: "Instagram",
-    url: `https://www.instagram.com/leopsousaa//${handle}`,
+    url: `https://www.instagram.com/leopsousaa/`,
   },
   {
     label: "Youtube",
-    url: `https://www.youtube.com/channel/UCjNevgWqdiGVNxK9oYjKpgg?view_as=subscriber/${handle}`,
+    url: `https://www.youtube.com/channel/UCjNevgWqdiGVNxK9oYjKpgg?view_as=subscriber/`,
   },
   {
     label: "Linkedin",
-    url: `https://www.linkedin.com/in/leandro-sousa-69b17b1b4//${handle}`,
+    url: `https://www.linkedin.com/in/leandro-sousa-69b17b1b4//`,
   },
   {
     label: "Github",
-    url: `https://github.com/leopsousa${handle}`,
+    url: `https://github.com/leopsousa/`,
   },
   {
     label: "Twitter",
-    url: `https://twitter.com/g_de_gigante${handle}`,
+    url: `https://twitter.com/g_de_gigante/`,
   },
 ]
 
