@@ -9,7 +9,7 @@ const links = [
   },
   {
     label: "Linkedin",
-    url: `https://www.linkedin.com/in/leandro-sousa-69b17b1b4//`,
+    url: `https://www.linkedin.com/in/leandro-sousa-69b17b1b4/`,
   },
   {
     label: "Github",
@@ -17,7 +17,7 @@ const links = [
   },
   {
     label: "Twitter",
-    url: `https://twitter.com/g_de_gigante/`,
+    url: `https://twitter.com/leopsousa/`,
   },
 ]
 
