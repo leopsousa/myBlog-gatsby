@@ -1,7 +1,11 @@
+require('dotenv').config()
+
+const queries = require('./src/utils/algolia_queries')
+
 module.exports = {
   siteMetadata: {
-    title: `My Blog`,
-    position: `Programador front-end, empreendedor e artista`,
+    title: `Meu Blog`,
+    position: `Empreendedor, artista e programador`,
     description: ` Programador junior na empresa Beneb App, apaixonado por
     empreendimento e investimento, CEO da MRLmalharia, fundador da
     desencoder e nas horas vagas sou design, tento as vezes fazer
@@ -28,6 +32,17 @@ module.exports = {
 
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-algolia-search`,
+      options: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        queries,
+        chunkSize: 10000, // default: 1000
+        enablePartialUpdates: true,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
